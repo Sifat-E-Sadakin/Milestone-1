@@ -1,3 +1,4 @@
+
 header{
     height: 250px;
     text-align: center;
@@ -40,3 +41,32 @@ li.mid{
     color: red;
     background-color: blue;
 } */
+nav{
+   background-color: transparent;
+}
+.flex{
+    display: flex;
+}
+.nav{
+    list-style: none;
+    color: aqua;
+    padding: 10px;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: yellowgreen;
+    display: block;
+
+}
+.dd{
+    display: none;
+}
+nav li:hover .dd{
+    display: block;
+}
+.blue{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(217, 215, 230);
+}
